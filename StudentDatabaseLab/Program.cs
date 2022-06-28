@@ -87,6 +87,6 @@ static void listAll(string[] str)
 {
     foreach (string s in str)
     {
-        Console.WriteLine(Array.IndexOf(str, s) + " " + s);
+        Console.WriteLine((Array.IndexOf(str, s) +1) + " " + s);
     }
 }
